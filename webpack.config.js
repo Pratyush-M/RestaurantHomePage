@@ -6,6 +6,7 @@ module.exports = {
   entry: {
   index: './src/index.js',
   home: './src/home.js',
+  navbar: './src/navbar.js',
   },
   
   devtool: 'inline-source-map',
