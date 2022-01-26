@@ -9,6 +9,7 @@ function addNav() {
     nav.appendChild(span)
     span.textContent = navNames[i]
     }
+    
 } 
 
 export{addNav}

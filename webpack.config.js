@@ -3,6 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
+  optimization: {
+    runtimeChunk: 'single'
+  },
+  
   entry: {
   index: './src/index.js',
   home: './src/home.js',

@@ -21,7 +21,12 @@
 }
 
 .navStyle {
-    
+    position: absolute;
+    right: 2% ;
+    top: 4%;
+    display: flex;
+    gap: 13px;
+
 }
 
 
