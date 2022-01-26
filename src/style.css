@@ -23,10 +23,18 @@
 .navStyle {
     position: absolute;
     right: 2% ;
-    top: 4%;
+    top: 4.6%;
     display: flex;
     gap: 13px;
 
+}
+
+.spanStyles:hover {
+    
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    cursor:default;
 }
 
 
@@ -40,4 +48,40 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
+  }
+  #mainDiv h3 {
+    margin: 0 50px 8px 53px;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  #menuDiv  {
+      margin: 0 50px 0 50px;
+      min-width: 100px;
+      min-height: 500px;
+      max-height: 600px;
+      background: rgb(141, 145, 138, 0.7);
+      border-radius: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  #menuDiv > h3 {
+      padding: 10px;
+  }
+
+
+
+  
+  #menuDiv span {
+      margin-top: 10px;
+      margin-left: 5px;
+  }
+
+  #menuDiv img {
+      display: block;
+      max-width: 150px;
+      max-height: 150px;
+      border-radius: 10px;
+      margin-top: 15px;
+      
   }
