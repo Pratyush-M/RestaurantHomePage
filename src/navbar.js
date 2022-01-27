@@ -18,6 +18,9 @@ function addHeading () {
     header.textContent = 'Delectica';
     header.classList.add('heading')
     document.body.appendChild(header)
+
+    let line = document.createElement('hr')
+    document.body.appendChild(line)
     
 }
 
