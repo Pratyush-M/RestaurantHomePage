@@ -29,7 +29,7 @@ function addMenuDiv () {
 
     let chooseCakes = document.getElementsByName('cake')
 
-    chooseCakes[0].textContent = 'Tulipiny - Rs. 800' 
+    chooseCakes[0].textContent = 'Tulipiny - Rs. 1000' 
     let myTulipiny = new Image();
     myTulipiny.src = Tulipiny;
     chooseCakes[0].appendChild(myTulipiny)
@@ -47,7 +47,7 @@ function addMenuDiv () {
     chooseCakes[2].appendChild(myCatalyctic);
 
 
-    chooseCakes[3].textContent = 'Caramello - Rs. 1000'
+    chooseCakes[3].textContent = 'Caramello - Rs. 950'
     let myCaramello = new Image();
     myCaramello.src = Caramello;
     chooseCakes[3].appendChild(myCaramello);

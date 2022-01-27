@@ -49,13 +49,18 @@ body::after {
     position: absolute;
     z-index: -1;   
   }
+
+  #content p{
+    padding: 7.5 px;
+  }
+
   #mainDiv h3 {
     margin: 0 50px 8px 53px;
     text-decoration: underline;
     text-underline-position: under;
   }
   #menuDiv  {
-      margin: 0 50px 0 50px;
+      margin: 0 16vw 0 16vw;
       min-width: 100px;
       min-height: 500px;
       max-height: 600px;
@@ -63,14 +68,15 @@ body::after {
       border-radius: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      align-items: center;
+  justify-items: center;
+      
+
   }
 
-  #menuDiv > h3 {
-      padding: 10px;
+  #mainDiv > h3 {
+    margin-left: 17vw;
   }
-
-
-
   
   #menuDiv span {
       margin-top: 10px;
@@ -78,10 +84,31 @@ body::after {
   }
 
   #menuDiv img {
+      margin-left: 4%;
       display: block;
       max-width: 150px;
       max-height: 150px;
       border-radius: 10px;
       margin-top: 15px;
       
+  }
+
+
+  #contactDiv {
+      margin: 50px 15vw 0 15vw;
+      border-radius: 10px;
+      min-width: 100px;
+      min-height: 500px;
+      max-height: 600px;
+      background: rgb(141, 145, 138, 0.7);
+  }
+
+  #contactDiv > h3 { 
+      padding: 10px;
+  }
+
+  #contactDiv p {
+      white-space: pre-wrap;
+      padding: 5px;
+      line-height: 1.5;
   }
